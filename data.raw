@@ -18,7 +18,7 @@ local Y = X.New({
 local A = Y.Button({
 	Text = "Selected no Type",
 	Callback = function()
-		if Type == "Start Dataloss" then
+		if Type == "Freeze Data" then
 		local args = {
     [1] = {
         ["AutoSell"] = {
@@ -83,7 +83,7 @@ local A = Y.Button({
 
 game:GetService("ReplicatedStorage").Remote.SetSettings:FireServer(unpack(args))
 TextField:SetText("Started")
-		elseif Type == "Undo Dataloss" then
+		elseif Type == "Unfreeze Data" then
 		local args = {
 [1] = {
  ["AutoSell"] = {
@@ -157,8 +157,8 @@ local D = Y.Dropdown({
 		getgenv().Type = Value
 	end,
 	Options = {
-		"Start Dataloss",
-		"Undo Dataloss"
+		"Freeze Data",
+		"Unfreeze Data"
 	}
 })
 
