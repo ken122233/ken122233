@@ -80,7 +80,16 @@ local A = Y.Button({
         ["OtherFX"] = true
     }
 }
+wait(0)
 
+warn("sex")
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Freeze Data";
+    Text = "Success!";
+    Icon = "";
+    Duration = "2";
+})
 game:GetService("ReplicatedStorage").Remote.SetSettings:FireServer(unpack(args))
 TextField:SetText("Started")
 		elseif Type == "Unfreeze Data" then
@@ -145,6 +154,14 @@ TextField:SetText("Started")
         ["OtherFX"] = true
     }
 }
+wait(0)
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "UnFreeze Data";
+    Text = "Success!";
+    Icon = "";
+    Duration = "2";
+})
 game:GetService("ReplicatedStorage").Remote.SetSettings:FireServer(unpack(args))
 TextField:SetText("Undone")
 		end
