@@ -157,8 +157,8 @@ local D = Y.Dropdown({
 		getgenv().Type = Value
 	end,
 	Options = {
-		"Unfreeze Data",
-		"Freeze Data"
+		"Freeze Data",
+		"Unfreeze Data"
 	}
 })
 
