@@ -1,5 +1,14 @@
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
+wait(0)
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Chọn Freeze Data/Unfreeze Data Xong Nhớ Chọn (Selected no Type) Để Script Hoạt Động Nhé)";
+    Text = "Success!";
+    Icon = "";
+    Duration = "2";
+})
+
 local X = Material.Load({
 	Title = "Fat Hub",
 	Style = 3,
