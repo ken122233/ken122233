@@ -16,7 +16,7 @@ local Y = X.New({
 })
 
 local A = Y.Button({
-	Text = "Selected no Type (Chọn Freeze Data Hoặc Unfreeze Data Xong Click Vào Đây)",
+	Text = "Selected no Type(Chọn Freeze Data/Unfreeze Data Xong Click Ô Này)",
 	Callback = function()
 		if Type == "Freeze Data" then
 		local args = {
