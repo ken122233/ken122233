@@ -1,1 +1,0 @@
-game.Players.LocalPlayer:Kick("Liên hệ zalo 0335518448 để mua hack")
