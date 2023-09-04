@@ -6,3 +6,9 @@ local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or 
  ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
 ]]--
+--[[
+My Profile
+Facebook: https://www.facebook.com/profile.php?id=100081368625775
+Zalo: https://zalo.me/nguyenchipro
+Discord: lucifer_never_die
+]]--
